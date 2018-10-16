@@ -1,7 +1,7 @@
 FROM centos:centos6
-MAINTAINER Gary Rogers <gary-rogers@uiowa.edu>
 
-# Install things as roo
+
+# Install things as root
 USER root
 
 RUN \
