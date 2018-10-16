@@ -49,7 +49,7 @@ RUN \
   printf "  plugins: /local/data/plugins\n" >> $ES_CONFIG && \
   printf "  work: /local/data/work\n" >> $ES_CONFIG
 
-# What we run by default
+# What we run by defaul
 CMD $ES_HOME/bin/elasticsearch
 
 # Ports to expose
