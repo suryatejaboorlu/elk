@@ -50,7 +50,7 @@ RUN \
   printf "  work: /local/data/work\n" >> $ES_CONFIG
 
 # What we run by default
-CMD $ES_HOME/bin/elasticsearch
+CMD $ES_HOME/bin/elasticsearchd
 
 # Ports to expose
 # NOTE! ES doesn't have any authentication by default. It's probably a bad idea
