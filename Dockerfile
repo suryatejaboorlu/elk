@@ -1,4 +1,4 @@
-FROM centos:centos6
+FROM isolvers_base
 
 
 # Install things as root
